@@ -6,7 +6,7 @@
       </div>
       <div class="col-sm-6">
         <div class="col d-flex justify-content-end">
-          <app-tentativas></app-tentativas>
+          <app-tentativas [tentativas]="tentativas"></app-tentativas>
         </div>
       </div>
     </div>
@@ -22,7 +22,7 @@
     </div>
     <div class="row content-btn">
       <div class="col d-flex justify-content-end">
-        <button type="button" class="btn btn-primary" (click)="verificarResposta()">Primary</button>
+        <button type="button" class="btn btn-primary" (click)="verificarResposta()">Verificar</button>
       </div>
     </div>
   </div>

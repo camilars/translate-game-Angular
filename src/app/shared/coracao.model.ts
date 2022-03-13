@@ -5,7 +5,7 @@ export class Coracao {
     public urlCoracaoVazio: string = '/assets/coracao_vazio.png'
   ){}
 
-  existeCoracao(): string{
+  exibeCoracao(): string{
     if(this.cheio) {
       return this.urlCoracaocheio;
     }else {
